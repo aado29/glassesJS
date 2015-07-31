@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, section#main {
+    width: 100%;
+    height: 100%;
+}
+section#main {
+
+}
+#nav-bar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#content-glass {
+	position: relative;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	z-index: 1;
+}
+#content-glass h1 {
+	font-family: 'Rancho';
+	font-size: 10vw;
+	margin: auto;
+    text-align: center;
+}
